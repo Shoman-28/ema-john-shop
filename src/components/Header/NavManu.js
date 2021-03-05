@@ -5,8 +5,8 @@ const NavManu = () => {
     return (
         <nav className="navManu">
             <a href="/shop">Shop</a>
-            <a href="/revew">Order Revew</a>
-            <a href="/manage">Manage Inventory</a>
+            <a href="/review">Order Revew</a>
+            <a href="/inventory">Manage Inventory</a>
         </nav>
     );
 };

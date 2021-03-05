@@ -1,5 +1,5 @@
-import React from 'react';
-import Shop from './Shop/Shop';
+import React from "react";
+import Shop from "./Shop/Shop";
 
 const Body = () => {
     return (
