@@ -1,9 +1,10 @@
 import React from 'react';
+import Shop from './Shop/Shop';
 
 const Body = () => {
     return (
         <div>
-            Riyad
+            <Shop></Shop>
         </div>
     );
 };
