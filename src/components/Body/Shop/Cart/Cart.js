@@ -12,7 +12,7 @@ const Cart = (props) => {
     }else if(total > 0){
         shipping = 12.99
     };
-    const tax = (total /10).toFixed(2);
+    const tax = total /10;
     const grandTotal = (total + shipping + Number(tax)).toFixed(2)
     const formatNumber = num => {
         const pricition = num.toFixed(2);
